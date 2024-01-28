@@ -1,6 +1,7 @@
 /*
 
     Didier Stevens XORstrings modified 2023-12
+    https://github.com/wesinator/didier_xorstrings_updated
     v0.0.2
     improvements:
      - clarified output fields and -s flag
@@ -559,10 +560,9 @@ main(int argc, char **argv)
     "Use -t to set the string terminator character, accepts integer or hex number (default 0)\n"
     "Use -c to output CSV\n"
     "Use -o to select the operation (XOR, ROL, or SHIFT) to perform (to be used together with -k)\n"
-    "Use -k to select the key for the operation to perform (to be used together with -o)\n"
-    "Source code put in the public domain by Didier Stevens, no Copyright\n"
-    "Use at your own risk\n"
-    "https://DidierStevens.com\n", argv[0]);
+    "Use -k to select the key for the operation to perform (to be used together with -o)\n\n"
+    "Source code at https://github.com/wesinator/didier_xorstrings_updated\n"
+    "Use at your own risk\n", argv[0]);
     return -1;
     }
 
